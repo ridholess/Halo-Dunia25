@@ -19,11 +19,11 @@ If you have any questions, please check our [FAQs](Faqs.md) for answers.
 - Clone on your local machine
 
 ```terminal
-git clone https://github.com/newridho/Halo-Dunia24.git
+git clone https://github.com/newridho/Halo-Dunia25.git
 ```
 - Navigate to project directory.
 ```terminal
-cd Halo-Dunia24
+cd Halo-Dunia25
 ```
 
 - Create a new Branch
@@ -57,7 +57,7 @@ git push origin my-new-branch
 An easy way to avoid conflicts is to add an 'upstream' for your git repo, as other PR's may be merged while you're working on your branch/fork.   
 
 ```terminal
-git remote add upstream https://github.com/newridho/Halo-Dunia24
+git remote add upstream https://github.com/newridho/Halo-Dunia25
 ```
 
 You can verify that the new remote has been added by typing
