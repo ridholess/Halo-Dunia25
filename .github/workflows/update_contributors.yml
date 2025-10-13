@@ -9,10 +9,9 @@ on:
 jobs:
   contrib-readme-job:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
-
+      
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -20,7 +19,8 @@ jobs:
       - name: Generate Contributors List
         uses: akhilmhdh/contributors-readme-action@v2.3.10
         with:
-          repo_name: ridholess/Halo-Dunia25
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
           committer_username: github-actions[bot]
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           readme_path: README.md
