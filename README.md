@@ -21,6 +21,9 @@ Do read the [Contribution Guidelines](/CONTRIBUTING.md)
 
 If you have any questions, please check our [FAQs](Faqs.md) for answers.
 
+## Our Amazing Contributors 
+
+
 <br>
 <br>
 <br>
