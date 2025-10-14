@@ -4,8 +4,9 @@ Generate contributors HTML and replace markers in README.md
 """
 import os
 import sys
-import requests
+import json
 from typing import List
+from urllib import request, error
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "ridholess/Halo-Dunia25")
 TOKEN = os.environ.get("GITHUB_TOKEN")
@@ -18,17 +19,24 @@ IMG_SIZE = int(os.environ.get("INPUT_IMAGE_SIZE", "100"))
 
 
 def get_contributors(repo: str, token: str) -> List[dict]:
+    contributors = []
+    page = 1
+    base_url = f"https://api.github.com/repos/{repo}/contributors?per_page={PER_PAGE}"
     headers = {"Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"token {token}"
-    url = f"https://api.github.com/repos/{repo}/contributors?per_page={PER_PAGE}"
-    contributors = []
-    page = 1
+
     while True:
-        r = requests.get(url + f"&page={page}", headers=headers)
-        if r.status_code != 200:
-            raise SystemExit(f"GitHub API error {r.status_code}: {r.text}")
-        data = r.json()
+        url = base_url + f"&page={page}"
+        req = request.Request(url, headers=headers)
+        try:
+            with request.urlopen(req) as resp:
+                if resp.status != 200:
+                    raise SystemExit(f"GitHub API error {resp.status}: {resp.read().decode()}")
+                data = json.load(resp)
+        except error.HTTPError as e:
+            raise SystemExit(f"GitHub API error {e.code}: {e.read().decode()}")
+
         if not data:
             break
         contributors.extend(data)
