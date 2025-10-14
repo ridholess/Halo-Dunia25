@@ -21,12 +21,11 @@ Do read the [Contribution Guidelines](/CONTRIBUTING.md)
 
 If you have any questions, please check our [FAQs](Faqs.md) for answers.
 
-## Our Amazing Contributors 
+## Our Amazing Contributors
 
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
+<div align="center">
 
-Made with [contributors-img](https://contrib.rocks).
+</div>
 
 <br>
 <br>
