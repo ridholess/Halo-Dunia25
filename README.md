@@ -24,7 +24,7 @@ If you have any questions, please check our [FAQs](Faqs.md) for answers.
 ## Our Amazing Contributors 
 
 <a href="https://github.com/ridholess/Halo-Dunia25/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ridholess/Halo-Dunia25&refresh=1" />
+  <img src="https://contrib.rocks/image?repo=ridholess/Halo-Dunia25&refresh=2" />
 </a>
 
 <br>
