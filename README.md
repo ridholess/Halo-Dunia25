@@ -23,6 +23,10 @@ If you have any questions, please check our [FAQs](Faqs.md) for answers.
 
 ## Our Amazing Contributors 
 
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
+
+Made with [contributors-img](https://contrib.rocks).
 
 <br>
 <br>
