@@ -23,9 +23,11 @@ If you have any questions, please check our [FAQs](Faqs.md) for answers.
 
 ## Our Amazing Contributors 
 
+<!-- readme: contributors -start -->
 <a href="https://github.com/ridholess/Halo-Dunia25/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ridholess/Halo-Dunia25&refresh=2" />
+  <img src="https://contrib.rocks/image?repo=ridholess/Halo-Dunia25&max=500&columns=20" />
 </a>
+<!-- readme: contributors -end -->
 
 <br>
 <br>
