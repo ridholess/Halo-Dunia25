@@ -3,3 +3,4 @@
 
 #!/bin/bash
 echo "Hello, World!"
+echo "Welcome to Hacktoberfest 2025!"
