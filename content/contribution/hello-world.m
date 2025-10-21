@@ -9,3 +9,5 @@ int main(int argc, const char * argv[]) {
    }
    return 0;
 }
+% MATLAB Hello World program
+disp('Hello World');
