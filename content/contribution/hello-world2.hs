@@ -1,4 +1,5 @@
--- Hello World in Haskell
+-- Hello World in Haskell (variant 2)
 -- Hacktoberfest 2025
 
-main = putStrLn "Hello World"
+main :: IO ()
+main = putStrLn "Hello, World!"
