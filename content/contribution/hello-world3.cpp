@@ -1,3 +1,11 @@
+#include <iostream>
+
+int main()
+{
+    std::cout<<"Hello World";
+
+    return 0;
+}
 // Hello world on C++
 // Hacktoberfest 2025
 
