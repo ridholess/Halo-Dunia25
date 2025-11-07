@@ -1,1 +1,1 @@
-." Hello, World!" CR
+printfn "Hello World!"
