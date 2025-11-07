@@ -1,0 +1,4 @@
+HAI 1.2
+I HAS A VAR ITZ "Hello World!"
+VISIBLE VAR
+KTHXBYE
